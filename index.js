@@ -112,8 +112,7 @@ for (let x=0; x<note.length; x++) {
         let FS = document.getElementById('font-size');
         if (FS.value === '' || FS.value === 0) {
             FS.value = 24;
-            console.log(FS);
-            textnote.style.fontSize = `${FS.value}px`; 
+            textnote.style.fontSize = `${FS.value}px`;
         } else if (FS.value >= 1) {
             textnote.style.fontSize = `${FS.value}px`; 
         }
